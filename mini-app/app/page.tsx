@@ -1,7 +1,7 @@
 
-export { generateMetadata };
-
+import { generateMetadata } from "@/lib/farcaster-embed";
 import { title, description } from "@/lib/metadata";
+export { generateMetadata };
 import NicknameGenerator from "@/components/nickname-generator";
 
 export default function Home() {
